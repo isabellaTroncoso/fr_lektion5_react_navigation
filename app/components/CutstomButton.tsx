@@ -1,8 +1,12 @@
 import styles from "./CustomButton.module.css"
 
-export function CustomButton () {
+interface CustomButton {
+    customButtonName: string
+}
+
+export function CustomButton (props: CustomButton) {
 return (<div>
-    <button className={styles.btn}>Navigate</button>
+    <button className={styles.btn}>{props.customButtonName }</button>
 </div>
 )
 }
