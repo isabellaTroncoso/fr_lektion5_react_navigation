@@ -1,5 +1,5 @@
 export function About (){
     return <div>
-        <p>Navigate sucesfullly</p>
+        <p>Navigate succesfullly</p>
     </div>
 }
